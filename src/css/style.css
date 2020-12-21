@@ -11,6 +11,17 @@ body {
   background-color: #fafafa;
 }
 
+a {
+  text-decoration: none;
+  color: #2c3e50;
+}
+
+a:hover {
+  color: #ff8f00;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
 #app {
   max-width: 1280px;
   height: 100vh;
@@ -126,5 +137,29 @@ body {
 
 .main-content .list .row-list .activite .description ul li {
   margin-left: 20px;
+}
+
+.main-content .competences {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.main-content .competences .list-competences ul {
+  margin-left: 20px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.main-content .interets-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
 }
 /*# sourceMappingURL=style.css.map */
